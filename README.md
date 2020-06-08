@@ -26,7 +26,7 @@
 
 ## Capítulo 4
 - [Tensor de esfuerzo no simétrico](Tensor-de-esfuerzo-no-simetrico)
-- [Equilibrio diferencial](Equilibrio-diferencial]
+- [Equilibrio diferencial](Equilibrio-diferencial)
 - [Deformaciones unitarias](Deformaciones-unitarias)
 
 ## Capítulo 5
