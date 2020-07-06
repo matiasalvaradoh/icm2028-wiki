@@ -24,6 +24,9 @@
 - [Ley de Hooke](Ley-de-Hooke)
 - [Módulo de Young](Modulo-de-Young)
 
+## Capítulo 3
+- [Cargas ditribuidas](Cargas-distribuidas)
+
 ## Capítulo 4
 - [Tensor de esfuerzo no simétrico](Tensor-de-esfuerzo-no-simetrico)
 - [Equilibrio diferencial](Equilibrio-diferencial)
@@ -31,5 +34,6 @@
 
 ## Capítulo 5
 - [Ley de Hooke generalizada](Ley-de-Hooke-generalizada)
+- [Fluencia](Fluencia)
 
 
