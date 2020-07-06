@@ -48,7 +48,12 @@ Supongamos que este ascensor tiene una carga máxima de 320 kg o 4 personas y qu
 En el caso de que suban 5 personas de 80 kg cada una, el ascensor estaría cargado con 400 kg. Pero el coeficiente de seguridad es 1,5, por lo que el ascensor aguantará esa carga, de hecho, aguantará 480 kg teóricamente. Pero si suben 6 personas de 80 kg, es decir, una carga total de 480 kg, en este caso en la practica no se puede afirmar que soportará la carga, ya que es posible que la máxima carga real sea menor a la máxima carga calculada, en cuyo caso fallará.
 Es por esto que se aplica el coeficiente de seguridad sobre la carga máxima, la que se divide por el coeficiente obteniendo los 320 kg que son la carga de uso o diseño.
 
-
+Referencias
+http://ve.scielo.org/scielo.php?script=sci_arttext&pid=S0255-69522004000100005
+https://www.instron.us/es-es/our-company/library/glossary/y/yield-strength
+http://www.tenso.es/utilidades/glosario.asp?termino=Ensayo%20de%20tracci%F3n
+imágenes de: https://es.wikipedia.org/wiki/Ascensor
+https://www.wikiwand.com/es/Fluencia
 
 
 
