@@ -36,4 +36,13 @@
 - [Ley de Hooke generalizada](Ley-de-Hooke-generalizada)
 - [Fluencia](Fluencia)
 
+## Capítulo 6
+- [Deformaciones en torsión](Deformaciones-en-torsion)
+
+## Capítulo 7
+- [Flexión](Flexion)
+
+## Capítulo 8
+- [Estabilidad](Estabilidad)
+
 
