@@ -30,22 +30,27 @@ Transformando la carga distribuida a una carga puntual obtenemos el siguiente di
 
 Obtenemos las siguientes relaciones:
 
-$$\sigma_M_0=0$$
+$$\Sigma_M_A=0$$
 
 $$-(F_1*1,5_m)-(F*4_m)-(F_2*7_m)+(R_B*8_m)=0$$
-$$-(225_Nm)-(720_Nm)-(1015_N_m)+(R_B*8_m)=0$$
 
-Obteniendo el siguiente valor para $$R_B$$.
+$$-(225_N_m)-(720_N_m)-(1015_N_m)+(R_B*8_m)=0$$
+
+Obteniendo el siguiente valor para $R_B$.
 
 $$R_B=245_N$$
 
-$$\sigma_F_x=0$$
-$$\sigma_F_y=0$$
+Obteniendo las siguientes relaciones para la fuerza:
+
+$$\Sigma_F_x=0$$
+
+$$\Sigma_F_y=0$$
 
 $$R_A-F_1-F-F_2+R_B=0$$
+
 $$R_A-150_N-180_N-145_N+245_N=0$$
 
-Obteniendo la siguente relación para $$R_A$$.
+Obteniendo la siguente relación para $R_A$.
 
 $$R_A=230_N$$
 
