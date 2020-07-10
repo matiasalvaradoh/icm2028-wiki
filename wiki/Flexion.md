@@ -53,17 +53,17 @@ Hallar los esfuerzos en; a) el punto A, b) en el punto B
 
 Primero tenemos que encontrar <img src="https://latex.codecogs.com/svg.latex?\bar{y}">
 
-<img src="https://latex.codecogs.com/svg.latex?\bar{y}=\frac{120_m_m}{2}=60*10^-3_m">
+<img src="https://latex.codecogs.com/svg.latex?\bar{y}=\frac{120\rm{mm}}{2}=60*10^{-3}\rm{m} ">
 
-<img src="https://latex.codecogs.com/svg.latex?I=\frac{1}{12}(80)(120)^3-\frac{1}{12}(40)(80)^3=9,8133*10^{-6}m^4">
+<img src="https://latex.codecogs.com/svg.latex?I=\frac{1}{12}(80)(120)^3-\frac{1}{12}(40)(80)^3=9,8133*10^{-6}{\rm{m}}^4">
 
 Obteniendo para A:
 
-<img src="https://latex.codecogs.com/svg.latex?\sigma_x=-\frac{My}{I}=\frac{-(15*10^3Nm)(40*10^{-3})}{9,8133*10^{-6}m^4}=-61,1413MPa">
+<img src="https://latex.codecogs.com/svg.latex?\sigma_x=-\frac{My}{I}=\frac{-(15*10^3\rm{Nm})(40*10^{-3}\rm{m})}{9,8133*10^{-6}{\rm{m}}^4}=-61,1413\rm{MPa} ">
 
 Obteniendo para B:
 
-<img src="https://latex.codecogs.com/svg.latex?\sigma_x=-\frac{My}{I}=\frac{(15*10^3Nm)(60*10^{-3})}{9,8133*10^{-6}m^4}=91,7122MPa">
+<img src="https://latex.codecogs.com/svg.latex?\sigma_x=-\frac{My}{I}=\frac{(15*10^3\rm{Nm})(60*10^{-3}\rm{m})}{9,8133*10^{-6}{\rm{m}}^4}=91,7122\rm{MPa} ">
 
 **Referencias**
 
