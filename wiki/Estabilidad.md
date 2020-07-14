@@ -44,8 +44,12 @@ Otra expresión de interés es el esfuerzo crítico, dado por
 
 -----------
 
-Si graficamos la carga aplicada con el desplazamiento del objeto, vemos que mientras la carga no supere el pandeo crítico, la estructura se 
+Si graficamos la carga aplicada con el desplazamiento _u_ del objeto, vemos que mientras la carga no supere el pandeo crítico, la estructura se 
 va a seguir deformando. Notamos que a medida que nos vamos acercando mas al valor crítico, el desplazamiento aumenta rápidamente.
+
+<p align="center">
+  <img src="https://github.com/arturobugueno/icm2028-wiki/blob/patch-1/wiki/images/p_critico.png" width="400" height="300">
+</p>
 
 ## Pandeo como criterio de falla
 
@@ -63,10 +67,14 @@ Usando la fórmula de pandeo crítico, podemos determinar el lugar donde va a oc
 Igualando la exprosión anterior con la dicha anteriormente para pandeo crítico, y despejando L, encontramos el lugar donde se produciría la falla una vez que 
 se supere el valor crítico.
 
-### Ejemplo
+### Ejercicio
 
 Determinemos el largo crítico de una viga esbelta con un extremo empotrado u otro sobre un apoyo móvil a la que se le aplica un esfuerzo de compresión en la misma 
 dirección que su eje neutro.
+
+<p align="center">
+  <img src="https://github.com/arturobugueno/icm2028-wiki/blob/patch-1/wiki/images/ejercicio_pandeo.png" width="150" height="300">
+</p>
 
 Resolviendo la ecuación diferencial
 
@@ -84,10 +92,15 @@ Ahora, igualando con ![equation](https://render.githubusercontent.com/render/mat
 
 ## Caso práctico
 
-En el año 2010, Mark Cavendish (ciclista profesional que esa temporada corría por el equipo _HTC Highroad_) se encontraba cerca de ganar la etapa 4 del _Tour de Suisse_ 
-con un final en sprint. Sin embargo, a pocos metros de terminar, sufrió una caída producto de una falla en su rueda delantera, lo que le costó la victoria.
+En el año 2010, Mark Cavendish (ciclista profesional que esa temporada corría por el equipo _HTC Highroad_) se encontraba cerca de ganar la etapa 4 del _Tour de Suisse_ con un final en sprint. Sin embargo, a pocos metros de terminar, sufrió una caída producto de una falla en su rueda delantera, lo que le costó la victoria.
+
+<p align="center">
+  <img src="https://github.com/arturobugueno/icm2028-wiki/blob/patch-1/wiki/images/pandeo_ejemplo_2.jpg" width="400" height="300">
+</p>
 
 Analizando el [video](https://www.youtube.com/watch?v=lNsnpmvO7YU)  de la carrera, se ve que la rueda sufre una flexión, provocando el accidente. Sin embargo, viendo mejor, se ve que la rueda solo se pandeo ya que volvió a su forma original.
 La falla se atribuye a las fuerzas laterales que Cavendish puso sobre rueda delantera cuando estaba atacando, llevando al límite su equipo de competencia.
 
-
+<p align="center">
+  <img src="https://github.com/arturobugueno/icm2028-wiki/blob/patch-1/wiki/images/padeo_ejemplo.png" width="400" height="300">
+</p>
