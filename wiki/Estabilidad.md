@@ -104,3 +104,10 @@ La falla se atribuye a las fuerzas laterales que Cavendish puso sobre rueda dela
 <p align="center">
   <img src="https://github.com/arturobugueno/icm2028-wiki/blob/patch-1/wiki/images/padeo_ejemplo.png" width="400" height="300">
 </p>
+
+### Referencias
+[1] http://ocw.uc3m.es/mecanica-de-medios-continuos-y-teoria-de-estructuras/ingenieria-estructural/material-de-clase-1/apuntes/Capitulo_5.-Inestabilidad_elastica_Pandeo.pdf
+
+[2] https://repositorio.upct.es/bitstream/handle/10317/3670/pfc5108.pdf?sequence=1&isAllowed=y
+
+[3] https://dugi-doc.udg.edu/bitstream/handle/10256/9593/Memoria.pdf?sequence=1&isAllowed=y
