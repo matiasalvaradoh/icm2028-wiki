@@ -25,7 +25,8 @@
 - [Módulo de Young](Modulo-de-Young)
 
 ## Capítulo 3
-- [Cargas ditribuidas](Cargas-distribuidas)
+- [Cargas ditribuidas](Cargas-distribuidas)]
+- [Funciones de singularidad](Funciones-de-singularidad)
 
 ## Capítulo 4
 - [Tensor de esfuerzo no simétrico](Tensor-de-esfuerzo-no-simetrico)
@@ -38,11 +39,15 @@
 
 ## Capítulo 6
 - [Deformaciones en torsión](Deformaciones-en-torsion)
+- [Fluencia en torsión](Fluencia-en-torsion)
 
 ## Capítulo 7
 - [Flexión](Flexion)
+- [Fluencia de flexión](Fluencia-en-flexion)
+- [Cálculo de deflexión](Calculo-de-deflexion)
 
 ## Capítulo 8
 - [Estabilidad](Estabilidad)
+
 
 
