@@ -10,8 +10,9 @@ trata de una viga es
 Para este método, obtenemos las deformaciones angulares que se producen en la viga analizanzo la tangente en puntos de la viga deformada. Esto se logra estableciendo una relación
 entre los triangulos formados por la tangente en dos puntos de la viga (como se ve en la figura) y el angulo de deformacion  <a href="https://www.codecogs.com/eqnedit.php?latex=d\Phi" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d\Phi" title="d\Phi" /></a>.
 
+
 <p align="center">
-  <a href="https://www.codecogs.com/eqnedit.php?latex=d\Phi" target="_blank"><img src="https://latex.codecogs.com/gif.latex?d\Phi" title="d\Phi" /></a>
+ <img src="https://github.com/arturobugueno/icm2028-wiki/blob/master/wiki/met_area_momentos_deflexion.png" width="200" height="200">
 </p>
 
 Para calcular la deformación angular, ocupamos el primer y segundo teorema de Mohr.
@@ -19,6 +20,10 @@ Para calcular la deformación angular, ocupamos el primer y segundo teorema de M
 ### Primer teorema de Mohr
 
 El ángulo formado por las dos tangentes en dos puntos de la viga deflectada es igual al área entre esos puntos entre la viga en su posición normal y la deformada. 
+
+<p align="center">
+ <img src="https://github.com/arturobugueno/icm2028-wiki/blob/master/wiki/primer_t_mohr.png" width="200" height="200">
+</p>
 
 Representando lo anterior de forma matemática
 
@@ -36,6 +41,10 @@ Además, se desprende una relación entre ángulos de _A_ y _B_
 
 La distancia perpendicular de un punto perteneciente a la viga deflectada a la tangente prolongada de otro punto es equivalente al momento momento flector entre ambos 
 puntos (área entre la viga deflectada y la viga inicial) dividido por el momento de inercia y el módulo de Young del material.
+
+<p align="center">
+ <img src="https://github.com/arturobugueno/icm2028-wiki/blob/master/wiki/segundo_t_mohr.png" width="200" height="200">
+</p>
 
 De forma matemática,
 
@@ -70,7 +79,11 @@ restricción de deformaciones o de deformaciones angulares por ejemplo.
 
 Similar al método por área de momentos, solo que ahora se genera una nueva viga ficticia, donde se mantienen las dimensiones iniciales y los apoyos (con sus respectivas 
 condiciones de borde), pero sobre esta viga se carga con el momento flector de la viga inicial dividido por _EI_. Por ello, ahora angulo de la tangente trazada en 
-un punto de la viga (como se hace en el método de área) está dado por el esfuerzo de corte de esta viga ficticia y la ecuación de deformación se determina con el momento flector de la viga original. 
+un punto de la viga (como se hace en el método de área) está dado por el esfuerzo de corte de esta viga ficticia y la ecuación de deformación se determina con el momento flector de la viga original.
+
+<p align="center">
+ <img src="https://github.com/arturobugueno/icm2028-wiki/blob/master/wiki/relacion_met_viga_ficticia.png" width="300" height="200">
+</p>
 
 Matemáticamente, relacionándolo con los teoremas de Mohr
 
@@ -85,6 +98,11 @@ Matemáticamente, relacionándolo con los teoremas de Mohr
 ## Ejercicio
 
 Calculemos la deformación máxima de la siguiente viga y comprobemos si el lugar de esta deformación máxima es al centro de la viga.
+
+<p align="center">
+ <img src="https://github.com/arturobugueno/icm2028-wiki/blob/master/wiki/problema_propuesto.png" width="300" height="100">
+</p>
+
 
 <p align="center">
   <a href="https://www.codecogs.com/eqnedit.php?latex=EIv_{B}=EIM_{B}^{*}=M_{A}^{*}&plus;\int_{A}^{B}{EIV(x)}dx" target="_blank"><img src="https://latex.codecogs.com/gif.latex?EIv_{B}=EIM_{B}^{*}=M_{A}^{*}&plus;\int_{A}^{B}{EIV(x)}dx" title="EIv_{B}=EIM_{B}^{*}=M_{A}^{*}+\int_{A}^{B}{EIV(x)}dx" /></a>
