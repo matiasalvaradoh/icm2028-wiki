@@ -1,0 +1,43 @@
+# Funciones de singularidad
+
+### Definición
+Son funciones que representan cargas en vigas, tales como cargas puntuales, distribuidas, uniformes y variables. En palabras más simples las funciones de singularidad son expresiones sencillas para expresar funciones complejas.$$^{1}$$
+
+### Modo de uso
+Una función de singularidad se define de la siguiente manera:
+
+$$f_{n} = \< x - a \>^{n}$$
+
+Cuando $$n >= 0$$ la función tiene el sigiente significado: $$f_{n} = 0$$ si $$x < a$$ y $$f_{n} = (x - a)^{n}$$ si $$x >= a$$. Siendo $$a$$ el punto en que se inicia (o está) la carga.$$^{2}$$
+En otras palabras, $$f_{n}$$ vale cero si es que no hay fuerzas y si es que hay fuerzas $$f_{n}$$ actúa como una función normal.  
+
+Por otro lado, las funciones de singularidad se deben integrar y funciona como una integración cualquiera:  
+$$\int_{-\infty}^{x} < s-a >^{n} ds = \frac{< x-a >^{n+1}}{{n+1}}$$
+
+En la siguiente tabla se puede ver cual es la función de singularidad que representa a cada tipo de carga$$^{3}$$. Nótese que al integrar la **carga** obtienes el valor del **corte** y al integrar el corte obtienes el **momento**.
+!(images/recurso4@8x.png')
+
+### Ejemplo$$^{4}$$
+Escribir ecuaciones para la fuerza de corte y el momento flector:  
+!(images/recurso5@8x.png')
+
+Primero se deben calcular las reacciones en los puntos de apoyo, para eso se definen las fuerzas reactivas y se calculan fuerzas equivalentes para las fuerzas distribuidas. Estas fuerzas se ubican en el centroide de cada figura, como se muestra en la imagen siguiente:  
+!(images/recurso6@8x.png')
+
+Haciendo equilibrio de fuerzas y momentos obtenemos que $$R_{A} = 650 N$$ y $$R_{B} = 2300 N$$
+
+Ahora buscamos en la tabla de funciones de singularidad las que sirvan a nuestra fuerza, como no existe una con un triángulo y un rectángulo debemos hacer un truco. Este consiste en asumir que la fuerza es el triángulo azul completo que se muestra y se le debe restar un "triángulo negativo" para obtener la distribución original.  
+!(images/recurso7@8x.png')
+
+De esta manera y siguiendo las reglas de integración mostradas anteriormente llegamos a que:
+
+$$w(x) = 100 \< x-0 \>^{1} - 100 \< x-3 \>^{1}$$  
+$$V(x) = -50 \< x-0 \>^{2} + 50 \< x-3 \>^{2} - 650 \< x-0 \>^{0} + 2300 \< x-3 \>^{0}$$  
+$$M(x) = \frac{-50}{3} \< x-0 \>^{3} + \frac{50}{3} \< x-3 \>^{3} - 650 \< x-0 \>^{1} + 2300\< x-3 \>^{1}
+
+### Referencias
+
+$$^{1}$$ https://es.scribd.com/document/337357565/Que-Son-Funciones-de-Singularidad?campaign=VigLink&ad_group=xxc1xx&source=hp_affiliate&medium=affiliate  
+$$^{2}$$ Crandall, S., Dahl, N., Lardner, T. (1978). An Introduction to the Mechanics of Solids (Second Edition). McGraw-Hill.  
+$$^{3}$$ https://www.studocu.com/cl/document/universidad-autonoma-gabriel-rene-moreno/mecanica/otros/tabla-funciones-de-singularidad/5789666/view  
+$$^{4}$$ https://youtu.be/y9gxcWEhqws
