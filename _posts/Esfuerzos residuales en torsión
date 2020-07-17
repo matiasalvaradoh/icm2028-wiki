@@ -1,0 +1,19 @@
+# Esfuerzos residuales en torsión
+
+Al aplicarle un momento torsor a un eje macizo, comenzamos a elásticamente hasta que llega a un punto, llamado de fluencia, desde el cual se empieza a deformar plásticamente. La primera deformación es del tipo reversible mientras que la segunda es irreversible.
+
+Consideremos que el material del eje se descarga elásticamente después de haberlo tensado plásticamente, entonces, si en cualquier momento se redujera el momento de torsión, la curva de momento de torsión versus ángulo de torsión trazaría una línea recta paralela a la deformación elástica original, como se puede ver en la figura 6.22. 
+
+!(images/Fig. 6.22.png')
+
+Si el momento de torsión se redujera a cero (punto C en la figura 6.22), el eje quedaría con la torsión permanente OC. Es interesante observar que, aunque no hay carga externa en el eje en esta condición, hay una distribución de tensiones internas de equilibrio automático en el eje. Estas tensiones internas que están "bloqueadas" en el material por la deformación plástica se denominan **tensiones residuales**.
+
+La distribución de tensiones residuales se puede encontrar mediante el uso de superposición. La deformación plástica debajo de Mt conduce a la distribución de tensiones de la figura 6.23a, que corresponde a aumentar el giro hasta alcanzar el punto A de la figura 6.22. Este proceso no es lineal, pero la descarga elástica a lo largo de ABC en la figura 6.22 es lineal. La distribución hipotética de las tensiones elásticas requeridas para desarrollar un momento de torsión de Mt se muestra en la figura 6.23b. Cuando las partes a y b de la figura 6.23 se superponen, terminamos sin un momento de torsión externo pero con una distribución de tensiones residuales, como se muestra en la figura 6.23c. 
+
+!(images/Fig. 6.23.png')
+
+Este tipo de esfuerzos residuales lo hemos experimentado muchas veces en la vida diaria, como cuando uno toma un clip y lo empieza a “abrir y cerrar” y se termina rompiendo sin esfuerzo. Esto es porque el esfuerzo necesario para llegar a la fluencia disminuye cada vez que se le cambia la dirección de aplicación.
+
+### Referencias
+
+Crandall, S., Dahl N. and Lardner T. An Introduction to the Mechanics of Solids (2nd Edition), McGraw-Hill, 1978.
