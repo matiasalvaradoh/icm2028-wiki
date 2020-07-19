@@ -1,0 +1,23 @@
+## Prefijos de unidades de medida
+Para simplificar el uso de las magnitudes de las unidades de medida se utilizan algunos prefijos equivalentes a potencias de 10. 
+
+* Tera (T): $10^12$
+* Giga (G): $10^9$
+* Mega (M): $10^6$
+* Kilo (k): $10^3$
+* Hecta (h): $10^2$
+* Deca(da): $10^1$
+* Deci (d): $10^-1$
+* Centi (c): $10^-2$
+* Mili (m): $10^-3$
+* Micro ($\mu$): $10^-6$
+* Nano (n): $10^-9$
+* Pico (p): $10^-12$
+
+
+## Equivalencias Sistema Internacional y sistema inglés
+Una característica del sistema de mediciones inglés es que para la distancia ocupan pies y pulgadas. 1 pie equivale a 12 pulgadas. Siempre que se resuelven este tipo de ejercicios hay que tener especial atención a ocupar las mismas unidades de longitud, es decir no se pueden comparar pies con pulgadas, sino que hay que transformar todas las pulgadas a pies o vice versa. 
+
+En la siguiente tabla se encuentran las equivalencias entre los dos sistemas de medidas: 
+![Tabla(./images/Tabla_unidades_de_medida.png)]
+						(Fuente: Apuntes Julio Méndez, Semana 1) 
