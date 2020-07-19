@@ -1,0 +1,35 @@
+Cuando un eje se somete a un par de torsión se puede generar una fórmula para calcular el ángulo de giro en algún punto del eje. 
+
+### Desarrollo
+Tomaremos el par de torsión resultante $T(x)$ , dependiente de x, ya que el par de torsión puede variar a lo largo del eje. 
+
+Producto de T(x) el disco girará produciendo una rotación relativa $d \phi$ entre la sección donde se ejerza el par de torsión y la sección que queramos medir (sección a una distancia x). 
+
+Entonces un elemento de materia ubicado a $\rho$  (arbitrario), experimentará una deformación $\gamma$. 
+
+Estos valores se relacionan de la siguiente manera: 
+
+(I) $$ d \phi = \gamma * \frac{dx}{\rho}$$
+
+La Ley de Hooke nos dice que $\gamma = \frac{\tau}{G}$. Además el esfuerzo cortante se puede expresar en términos del par de torsión aplicado, usando la fórmula de torsión $\tau = T(x) * \frac{\rho}{J(x)} $. 
+Sustituyendo todo esto en la fórmula (I) , nos queda que el ángulo de giro para el disco es: 
+
+$$ d\phi = \frac{T(x)}{J(x)G} dx$$
+
+Si integramos a lo largo de la longitud L del eje, obtenemos el ángulo de giro para todo el eje: 
+
+$$ \phi = \int_{0}^{L}  \frac{T(x) dx}{J(x)G}$$
+
+
+### Par de torsión constante y área de la sección transversal
+Para este caso,  como el par de torsión y el momento polar son constantes a lo largo del eje, la ecuación anterior nos queda: 
+
+$$ \phi = \frac{TL}{JG}$$
+
+
+
+### Bibliografía 
+Mecánica de Materiales (octava edición). R.C. Hibbeler
+
+### Autor
+Daniel Lyon
